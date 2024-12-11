@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: 100vh;
+    background: url("bukhansan-national-3840x2160-19908.jpeg") no-repeat;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+
+}
+.wrappe{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrappe h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrappe .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    background: hsl(0, 3%, 25%);
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solide rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgba(240, 248, 255, 0.997);
+    padding: 20px 45px 20px 20px;
+}
+.input-box input ::placeholder{
+    color: aliceblue;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrappe .remenber-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remenber-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remenber-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remenber-forgot a:hover {
+    text-decoration: underline;
+}
+.wrappe .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrappe .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+
+.register-link p a {
+ color: #fff;
+ text-decoration: none;
+ font-weight: 600;
+}
+.register-link p a:hover {
+   text-decoration: underline; 
+}
